@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7c8ac28-5efa-4d03-981a-2fc6dcf8cbb3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/AddPageViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/New York City.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/New York City.imageset/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/School Freedom.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/School Freedom.imageset/sea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/arrow.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/arrow.imageset/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/brush.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/brush.imageset/brush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/camera_gray.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/camera_gray.imageset/camera_gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/camera_white.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/camera_white.imageset/camera_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/cancel.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/cancel.imageset/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/line.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/line.imageset/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/menu.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/menu.imageset/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/plus.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/plus.imageset/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/sign-in.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/sign-in.imageset/sign-in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/whitecancel.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/whitecancel.imageset/white_cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/CustomTableViewCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/EditPageViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/EventModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/FullPageViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/GlobalVariable.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/IAPHandler.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDown/SettingPageViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDown.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/CountDown.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDown.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/CountDown.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDown.xcodeproj/xcuserdata/jin.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/CountDown.xcodeproj/xcuserdata/jin.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDown/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/CountDown/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDown/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/CountDown/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDown/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/CountDown/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDown/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/CountDown/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDown/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/CountDown/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDown/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/CountDown/ViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDownTests/CountDownTests.swift" beforeDir="false" afterPath="$PROJECT_DIR$/CountDownTests/CountDownTests.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDownTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/CountDownTests/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDownUITests/CountDownUITests.swift" beforeDir="false" afterPath="$PROJECT_DIR$/CountDownUITests/CountDownUITests.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountDownUITests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/CountDownUITests/Info.plist" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_A385294A-CC13-4D55-9908-466129CEFC65" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="IAPHelper.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CountDown/IAPHelper.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="134" column="3" selection-start-line="134" selection-start-column="3" selection-end-line="134" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RageProducts.swift" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CountDown/RageProducts.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CountDown/IAPHelper.swift" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="96" />
+    <option name="y" value="34" />
+    <option name="width" value="1774" />
+    <option name="height" value="994" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Cidr.FilesView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="CountDown" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="CountDown" type="1d218c8b:XcodeProjectNode" />
+              <item name="CountDown" type="fcab9f18:XcodeViewNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CountDown" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CountDown" TARGET_NAME="CountDown" CONFIG_NAME="Debug" SCHEME_NAME="CountDown" IS_LOCATION_SIMULATION_ALLOWED="true" RUN_TARGET_PROJECT_NAME="CountDown" RUN_TARGET_NAME="CountDown" MAKE_ACTIVE="TRUE">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7c8ac28-5efa-4d03-981a-2fc6dcf8cbb3" name="Default" comment="" />
+      <created>1523408013646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523408013646</updated>
+      <workItem from="1523408016321" duration="2333000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2333000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1005" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32996634" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31578946" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
+      <window_info anchor="right" id="LuaJ" />
+      <window_info anchor="bottom" id="TeamCity" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CountDown/IAPHelper.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="134" column="3" selection-start-line="134" selection-start-column="3" selection-end-line="134" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CountDown/RageProducts.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

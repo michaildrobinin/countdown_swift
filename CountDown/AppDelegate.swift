@@ -1,21 +1,51 @@
-//
-//  AppDelegate.swift
-//  CountDown
-//
-//  Created by Alexey Jin on 20/02/2018.
-//
-
 import UIKit
+import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    var mainVC : ViewController?
+    var events : [EventModel] = []
+    var currentIndex : Int! = -1
+    var dateType : Int! = 15
+    var autoRemove: Bool! = false
+    var autoBadge: Bool! = true
+    var minDay: Int! = 1000000000
+    var products: [SKProduct]! = []
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        let userDefaults = UserDefaults.standard
+        if let decoded  = userDefaults.object(forKey: "events") as? Data {
+            events = NSKeyedUnarchiver.unarchiveObject(with: decoded) as! [EventModel]            
+        }
+        
+        autoBadge = userDefaults.bool(forKey: "badge")
+        autoRemove = userDefaults.bool(forKey: "remove")
+        minDay = userDefaults.integer(forKey: "day")
+        
+        Products.store.requestProducts{ success, products in
+            if success {
+                self.products = products!
+            }
+        }
+        
         // Override point for customization after application launch.
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        mainVC = storyboard.instantiateViewController(withIdentifier: "MainPageViewControllerID") as? ViewController
+        window?.rootViewController = mainVC
+        window?.makeKeyAndVisible()
         return true
+    }
+    
+    func save() {
+        minDay = 1000000000000
+        let userDefaults = UserDefaults.standard
+        let encodedData: Data = NSKeyedArchiver.archivedData(withRootObject: events)
+        userDefaults.set(encodedData, forKey: "events")
+        userDefaults.synchronize()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

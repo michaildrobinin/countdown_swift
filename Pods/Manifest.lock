@@ -1,0 +1,18 @@
+PODS:
+  - SelectionDialog (2.0.0)
+  - SwiftCheckboxDialog (1.0.0)
+  - SwiftSpinner (1.5.0)
+
+DEPENDENCIES:
+  - SelectionDialog
+  - SwiftCheckboxDialog
+  - SwiftSpinner
+
+SPEC CHECKSUMS:
+  SelectionDialog: 4359518dc191fb10f9699fcf36a9b81687257f13
+  SwiftCheckboxDialog: 961526e6a278298b2c7857cd4a5a1e7f034ddb6b
+  SwiftSpinner: 4c058c7a1d6b444dd2e1d70988ead40783097133
+
+PODFILE CHECKSUM: aa97268ae3a62842eda84ed7de0711927d7c5669
+
+COCOAPODS: 1.4.0

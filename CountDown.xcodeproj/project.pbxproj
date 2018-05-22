@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0D065D203EF32200C0BDFC /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D065C203EF32200C0BDFC /* EventModel.swift */; };
+		3C125BEE2041C1E8006D653C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C125BED2041C1E8006D653C /* StoreKit.framework */; };
+		3C125BF22041C39F006D653C /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C125BF12041C39F006D653C /* IAPHelper.swift */; };
+		3C125BF42041C4B2006D653C /* RageProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C125BF32041C4B2006D653C /* RageProducts.swift */; };
+		3C1F55A2203D0B5F008663DF /* AddPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F55A1203D0B5F008663DF /* AddPageViewController.swift */; };
+		3C260F092041333400461057 /* IAPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C260F082041333400461057 /* IAPHandler.swift */; };
+		3C5FA061203D18E900F2EF03 /* FullPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA060203D18E900F2EF03 /* FullPageViewController.swift */; };
+		3C5FA063203D19FE00F2EF03 /* EditPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA062203D19FE00F2EF03 /* EditPageViewController.swift */; };
 		3CB1E4E5203BF49100807492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1E4E4203BF49100807492 /* AppDelegate.swift */; };
 		3CB1E4E7203BF49100807492 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1E4E6203BF49100807492 /* ViewController.swift */; };
 		3CB1E4EA203BF49100807492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB1E4E8203BF49100807492 /* Main.storyboard */; };
@@ -14,6 +22,11 @@
 		3CB1E4EF203BF49100807492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB1E4ED203BF49100807492 /* LaunchScreen.storyboard */; };
 		3CB1E4FA203BF49100807492 /* CountDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1E4F9203BF49100807492 /* CountDownTests.swift */; };
 		3CB1E505203BF49100807492 /* CountDownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1E504203BF49100807492 /* CountDownUITests.swift */; };
+		3CB7B5D8203DDFB300CB2AA7 /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7B5D7203DDFB300CB2AA7 /* GlobalVariable.swift */; };
+		3CB887AC2041584F001B6E08 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB887AB2041584F001B6E08 /* GoogleMobileAds.framework */; };
+		3CDD36B6203DF0CB008239EC /* SettingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FA05E203D146C00F2EF03 /* SettingPageViewController.swift */; };
+		3CF9B27D203C9C2900601675 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF9B27C203C9C2900601675 /* CustomTableViewCell.swift */; };
+		877E7B8847F2947B9B4D59C1 /* Pods_CountDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7EAD64CDE335692F5BB556 /* Pods_CountDown.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16412CE5D175CC821484123B /* Pods-CountDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDown.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountDown/Pods-CountDown.release.xcconfig"; sourceTree = "<group>"; };
+		3C0D065C203EF32200C0BDFC /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		3C125BED2041C1E8006D653C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3C125BF12041C39F006D653C /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		3C125BF32041C4B2006D653C /* RageProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RageProducts.swift; sourceTree = "<group>"; };
+		3C1F55A1203D0B5F008663DF /* AddPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPageViewController.swift; sourceTree = "<group>"; };
+		3C260F082041333400461057 /* IAPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHandler.swift; sourceTree = "<group>"; };
+		3C5FA05E203D146C00F2EF03 /* SettingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPageViewController.swift; sourceTree = "<group>"; };
+		3C5FA060203D18E900F2EF03 /* FullPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPageViewController.swift; sourceTree = "<group>"; };
+		3C5FA062203D19FE00F2EF03 /* EditPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPageViewController.swift; sourceTree = "<group>"; };
 		3CB1E4E1203BF49100807492 /* CountDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB1E4E4203BF49100807492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CB1E4E6203BF49100807492 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,11 @@
 		3CB1E500203BF49100807492 /* CountDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB1E504203BF49100807492 /* CountDownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownUITests.swift; sourceTree = "<group>"; };
 		3CB1E506203BF49100807492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB7B5D7203DDFB300CB2AA7 /* GlobalVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariable.swift; sourceTree = "<group>"; };
+		3CB887AB2041584F001B6E08 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = CountDown/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		3CF9B27C203C9C2900601675 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		49A9B75AAA9B55A11073D0B6 /* Pods-CountDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountDown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CountDown/Pods-CountDown.debug.xcconfig"; sourceTree = "<group>"; };
+		9F7EAD64CDE335692F5BB556 /* Pods_CountDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C125BEE2041C1E8006D653C /* StoreKit.framework in Frameworks */,
+				877E7B8847F2947B9B4D59C1 /* Pods_CountDown.framework in Frameworks */,
+				3CB887AC2041584F001B6E08 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,8 @@
 				3CB1E4F8203BF49100807492 /* CountDownTests */,
 				3CB1E503203BF49100807492 /* CountDownUITests */,
 				3CB1E4E2203BF49100807492 /* Products */,
+				AC70855AEF41D9FB53028870 /* Pods */,
+				934DF9F6C61DB898A3A75A23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +130,22 @@
 		3CB1E4E3203BF49100807492 /* CountDown */ = {
 			isa = PBXGroup;
 			children = (
+				3C125BF32041C4B2006D653C /* RageProducts.swift */,
+				3C125BF12041C39F006D653C /* IAPHelper.swift */,
 				3CB1E4E4203BF49100807492 /* AppDelegate.swift */,
 				3CB1E4E6203BF49100807492 /* ViewController.swift */,
 				3CB1E4E8203BF49100807492 /* Main.storyboard */,
 				3CB1E4EB203BF49100807492 /* Assets.xcassets */,
 				3CB1E4ED203BF49100807492 /* LaunchScreen.storyboard */,
 				3CB1E4F0203BF49100807492 /* Info.plist */,
+				3CF9B27C203C9C2900601675 /* CustomTableViewCell.swift */,
+				3C1F55A1203D0B5F008663DF /* AddPageViewController.swift */,
+				3C5FA05E203D146C00F2EF03 /* SettingPageViewController.swift */,
+				3C5FA060203D18E900F2EF03 /* FullPageViewController.swift */,
+				3C5FA062203D19FE00F2EF03 /* EditPageViewController.swift */,
+				3CB7B5D7203DDFB300CB2AA7 /* GlobalVariable.swift */,
+				3C0D065C203EF32200C0BDFC /* EventModel.swift */,
+				3C260F082041333400461057 /* IAPHandler.swift */,
 			);
 			path = CountDown;
 			sourceTree = "<group>";
@@ -125,6 +168,25 @@
 			path = CountDownUITests;
 			sourceTree = "<group>";
 		};
+		934DF9F6C61DB898A3A75A23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C125BED2041C1E8006D653C /* StoreKit.framework */,
+				3CB887AB2041584F001B6E08 /* GoogleMobileAds.framework */,
+				9F7EAD64CDE335692F5BB556 /* Pods_CountDown.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC70855AEF41D9FB53028870 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49A9B75AAA9B55A11073D0B6 /* Pods-CountDown.debug.xcconfig */,
+				16412CE5D175CC821484123B /* Pods-CountDown.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CB1E509203BF49100807492 /* Build configuration list for PBXNativeTarget "CountDown" */;
 			buildPhases = (
+				476B98E38359452378A6B649 /* [CP] Check Pods Manifest.lock */,
 				3CB1E4DD203BF49100807492 /* Sources */,
 				3CB1E4DE203BF49100807492 /* Frameworks */,
 				3CB1E4DF203BF49100807492 /* Resources */,
+				06F660286C31108476A939FB /* [CP] Embed Pods Frameworks */,
+				A6E9960A3172D3B32930A176 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +258,11 @@
 					3CB1E4E0203BF49100807492 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					3CB1E4F4203BF49100807492 = {
 						CreatedOnToolsVersion = 9.2;
@@ -253,13 +323,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06F660286C31108476A939FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CountDown/Pods-CountDown-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SelectionDialog/SelectionDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftCheckboxDialog/SwiftCheckboxDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SelectionDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCheckboxDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountDown/Pods-CountDown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		476B98E38359452378A6B649 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CountDown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E9960A3172D3B32930A176 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountDown/Pods-CountDown-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CB1E4DD203BF49100807492 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C125BF22041C39F006D653C /* IAPHelper.swift in Sources */,
+				3CF9B27D203C9C2900601675 /* CustomTableViewCell.swift in Sources */,
+				3C260F092041333400461057 /* IAPHandler.swift in Sources */,
 				3CB1E4E7203BF49100807492 /* ViewController.swift in Sources */,
+				3C125BF42041C4B2006D653C /* RageProducts.swift in Sources */,
 				3CB1E4E5203BF49100807492 /* AppDelegate.swift in Sources */,
+				3C5FA061203D18E900F2EF03 /* FullPageViewController.swift in Sources */,
+				3CDD36B6203DF0CB008239EC /* SettingPageViewController.swift in Sources */,
+				3C1F55A2203D0B5F008663DF /* AddPageViewController.swift in Sources */,
+				3CB7B5D8203DDFB300CB2AA7 /* GlobalVariable.swift in Sources */,
+				3C0D065D203EF32200C0BDFC /* EventModel.swift in Sources */,
+				3C5FA063203D19FE00F2EF03 /* EditPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,9 +561,16 @@
 		};
 		3CB1E50A203BF49100807492 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A9B75AAA9B55A11073D0B6 /* Pods-CountDown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB4CJ4XUXT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CountDown",
+				);
 				INFOPLIST_FILE = CountDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.and.CountDown;
@@ -437,9 +582,16 @@
 		};
 		3CB1E50B203BF49100807492 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16412CE5D175CC821484123B /* Pods-CountDown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB4CJ4XUXT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CountDown",
+				);
 				INFOPLIST_FILE = CountDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.and.CountDown;
